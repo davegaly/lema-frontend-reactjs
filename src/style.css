@@ -14,3 +14,10 @@ h1 {
   font-weight: 800;
   font-size: 1.5rem;
 }
+
+
+
+.active {
+  color: red; /* Change the color to your desired highlight color */
+  font-weight: bold; /* Optionally, you can add other styles for emphasis */
+}

@@ -4,7 +4,7 @@ const connector = {}
 const departments = {}
 departments.listAll = async () => {
 
-    let result = {};
+    let result = [];
     let department1 = {"guid":"abcde1","name":"HR"}
     let department2 = {"guid":"usifh1","name":"Sintesi Agenzie"}
     let department3 = {"guid":"sicui1","name":"Sintesi HD 1"}

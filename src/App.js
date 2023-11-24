@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, NavLink  } from 'react-router-dom';
 import { PrimeReactProvider } from 'primereact/api';
 import { Button } from 'primereact/button';  
 import { Dropdown } from 'primereact/dropdown';
@@ -13,15 +13,28 @@ export default function App() {
 
   return (
     <PrimeReactProvider>
-      <Routes>
-        <Route path="/" element={<DashboardPage />} />
-        <Route path="/dept" element={<AdminDepartmentsPage />} />
-      </Routes>
+      <Router>
       <div>
-        <h1>Hello StackBlitz!</h1>
-        <p>Start editing to see some magic ha Aasdf :)</p>
-        <p><Button label="Submit" onClick={() => {alert('Hello, React!');}} /></p>
-      </div>
+          <nav>
+            <ul>
+              <li>
+              <NavLink exact to="/" activeClassName="active">
+                Dashboard
+              </NavLink>
+              </li>
+              <li>
+              <NavLink exact to="/dept" activeClassName="active">
+                Departments
+              </NavLink>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <Routes>
+          <Route path="/" element={<DashboardPage />} />
+          <Route path="/dept" element={<AdminDepartmentsPage />} />
+        </Routes>
+      </Router>
     </PrimeReactProvider>
   );
 }
