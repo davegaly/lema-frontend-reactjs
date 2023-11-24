@@ -1,18 +1,10 @@
 const connector = {}
 
+const LEMABACKEND_ROOT_URL = process.env["REACT_APP_LEMABACKEND_ENDPOINT"];
+
 // DEPARTMENTS
 const departments = {}
 departments.listAll = async () => {
-
-    let result = [];
-    let department1 = {"guid":"abcde1","name":"HR"}
-    let department2 = {"guid":"usifh1","name":"Sintesi Agenzie"}
-    let department3 = {"guid":"sicui1","name":"Sintesi HD 1"}
-    result.push(department1);
-    result.push(department2);
-    result.push(department3);
-    return result;
-
     let response = await axios.get(LEMABACKEND_ROOT_URL + "/api/departments/listall");
     return response;
 }
