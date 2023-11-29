@@ -1,0 +1,24 @@
+:root {
+    /* COMMON */
+    --bs-app-bg-color: #F6F6F6;
+    /* SIDEBAR */
+    --bs-app-sidebar-base-bg-color: #F6F6F6;
+    --bs-app-sidebar-link-bg-color:#ffffff;
+    /* SITE HEADER */
+    --bs-app-header-height: 65px;
+    --bs-app-header-base-bg-color: #F6F6F6;
+    /* PAGE CONTENT BACKGROUND */
+    --bs-app-content-bg-color: #F6F6F6;
+    --bs-app-toolbar-base-bg-color: #F6F6F6;
+    /* OTHER COLORS */
+    --bs-body-bg: #ffffff;
+    --bs-primary: #3E97FF;
+    --primary-color: #1462d9d6;
+    --sidebar-bgcolor: #f9f9f9;
+    --sidebar-link-color: #a6a8b3;
+    --table-header: #f9f9f9;
+    --generic-border-color: #f4f0f2;
+    --common-grey: #f4f0f2;
+    --common-darker-grey: #a3a3a3;
+    --lema-bgcolor-departments: purple;
+}

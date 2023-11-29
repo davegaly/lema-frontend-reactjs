@@ -1,0 +1,178 @@
+/* GENERIC COLORS FOR ELEMENTS */
+.lema-department-color {
+    background-color: var(--lema-bgcolor-departments) !important;
+}
+/* GENERIC COLORS FOR ELEMENTS */
+
+
+.bg-request-created {
+    background-color: darkgoldenrod;
+    font-weight: normal;
+}
+
+.bg-request-accepted {
+    background-color: green;
+    font-weight: normal;
+}
+
+.bg-request-refused {
+    background-color: red;
+    font-weight: normal;
+}
+
+.bg-request-request_delete {
+    background-color: red;
+    font-weight: normal;
+}
+
+.bg-request-deleted {
+    background-color: red;
+    font-weight: normal;
+}
+
+
+.browsepeople-card {
+    box-shadow: 2px 2px 6px 0px #51585e45;
+    border-radius: 5px;
+    border: 1px solid #80808026;
+    justify-items: center;
+    width: 100%;
+}
+
+.browsepeople-initial-avatar {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.browsepeople-data {
+}
+
+.browsepeople-data-name {
+    font-weight: 900;
+    display: block;
+    font-size: 110%;
+    line-height: 16px;
+}
+
+.browsepeople-data-role {
+    display: block;
+    font-size: 90%;
+}
+
+.browsepeople-data-email {
+    display: block;
+    font-size: 80%;
+}
+
+    .browsepeople-data-email i {
+        color: #cba32aad;
+        margin-right: 5px;
+    }
+
+.browsepeople-data-phone {
+    display: block;
+    font-size: 80%;
+}
+
+    .browsepeople-data-phone i {
+        color: #3fad7a9e;
+        margin-right: 5px;
+    }
+
+
+.insert-new-request-duration-box {
+    border: 1px silver solid;
+    min-height: 80px;
+    border-radius: 5px;
+    background-color: #0d6efd26;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 80%;
+}
+
+.insert-new-request-duration-box-title {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+
+.approve-request-list-dateFrom {
+    display: block;
+    font-size: 80%;
+}
+
+.approve-request-list-dateTo {
+    display: block;
+    font-size: 80%;
+}
+
+.approve-request-list-category {
+    display: block;
+    margin-bottom: -5px;
+}
+
+    .approve-request-list-category i {
+        font-size: 80%;
+        margin-right: 5px;
+        color: #686868;
+    }
+
+.approve-request-list-duration {
+    font-size: 80%;
+}
+
+
+
+/* GLOBAL MODAL REQUEST */
+#globalRequestPanelConfirmStatus {
+    display: block;
+}
+
+#globalRequestPanelConfirmReqNumber {
+    font-size: 120%;
+    display: block;
+    border: 1px dashed silver;
+    width: 60%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    background-color: #c0c0c017;
+}
+
+#globalRequestPanelConfirmReqNumberTitle {
+    display: block;
+}
+
+.globalrequest-green-check-icon {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.globalrequest-green-check-icon-circle {
+    color: #0080008a !important;
+}
+
+#globalRequestPanelConfirmReqStatusTitle {
+    display:block;
+}
+#globalRequestPanelConfirmReqStatus {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 120%;
+}
+.globalRequestPanelPending {
+    color: #c57583;
+}
+.globalRequestPanelApproved {
+    color: #198754;
+}
+
+/* CONTROLER PANEL */
+.control-panel-linkbutton {
+    color: #fff;
+}
